@@ -1,0 +1,29 @@
+[project]
+name = "wb-assingment"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "faiss-cpu>=1.16.0",
+    "fastapi>=0.162.4",
+    "langchain>=1.4.10",
+    "langchain-community>=0.4.2",
+    "langchain-core>=1.7.7",
+    "langchain-google-genai>=4.4.3",
+    "langchain-huggingface>=1.2.3",
+    "langchain-openai>=1.7.4",
+    "langchain-text-splitters>=1.1.3",
+    "langgraph>=1.2.20",
+    "langsmith>=0.14.17",
+    "openai>=3.49.0",
+    "psycopg2-binary>=2.9.13",
+    "pydantic>=2.14.3",
+    "pymupdf>=2.1",
+    "pypdf>=7.0.1",
+    "python-dotenv>=1.2.4",
+    "rank-bm25>=0.2.2",
+    "requests>=2.34.2",
+    "sentence-transformers>=6.3.0",
+    "streamlit>=1.67.0",
+]
